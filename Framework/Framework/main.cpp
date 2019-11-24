@@ -3,6 +3,8 @@
 #include "GameScene.h"
 #include "Math.h"
 
+#pragma comment(linker, "/ENTRY:mainCRTStartup")
+
 int main()
 {
 	Framework& f = Framework::GetInstance();
