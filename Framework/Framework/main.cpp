@@ -6,6 +6,6 @@
 int main()
 {
 	Framework& f = Framework::GetInstance();
-	f.Run(new GameScene(),L"타이틀", 480, 640, false);
+	f.Run(new GameScene(),L"SPACE☞☞ 벗기기", 480, 640, false);
 	return 0;
 }

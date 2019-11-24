@@ -15,7 +15,7 @@ void GameScene::Initialize()
 
 	FontObject* creditText = (FontObject*)PushBackGameObject(new FontObject());
 	creditText->transform->SetPosition(30.0f, 580.0f);
-	creditText->transform->SetScale(0.6, 0.6);
+	creditText->transform->SetScale(0.6f, 0.6f);
 	wcscpy_s(creditText->fontRenderer->text, 100, L"제가 이 게임을 만들었을 떄 처럼 재미있게 즐겨주셨으면 좋겠습니다♬\n선린겜프2019@강준하 개발");
 
 	FontObject* scoreText = (FontObject*)PushBackGameObject(new FontObject());
